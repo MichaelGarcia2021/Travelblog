@@ -16,6 +16,7 @@
     
     .flexone {
         flex-shrink: 0;
+        border: dotted cadetblue;
     }
     
     .flextwo {
@@ -26,6 +27,7 @@
     
     .flexthree {
         flex-shrink: 0;
+        border: dotted cadetblue;
     }
     
     .containertwo {
@@ -73,6 +75,7 @@
     }
     
     h1 {
+        color: darkgray;
         text-align: center;
     }
 
@@ -96,4 +99,12 @@
         border: solid rosybrown 5px;
         flex-grow: 1;
         flex-shrink: 1;  
+    }
+
+    h2 {
+        text-align: center;
+    }
+    
+    a {
+        text-align: center;
     }
